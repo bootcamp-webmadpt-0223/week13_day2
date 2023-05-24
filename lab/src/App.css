@@ -1,0 +1,34 @@
+.ih-header {
+  padding: 40px;
+  background-color: rgb(58, 58, 97);
+  white-space: pre-wrap;
+  color: white;
+}
+
+.ih-header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ih-header nav img {
+  object-fit: contain;
+}
+
+.ih-header button {
+  color: black;
+  background-color: white;
+  padding: 16px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.ih-main {
+  display: flex;
+  padding: 40px;
+}
+
+.ih-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
